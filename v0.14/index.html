@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#24483f">
+  <link rel="icon" href="data:,">
+  <title>Søndervig Adventure · Küstenpfade v0.14</title>
+  <link rel="stylesheet" href="./src/game.css">
+</head>
+<body>
+  <main id="game" aria-label="Dreidimensionale Spielwelt"></main>
+  <header id="hud">
+    <div class="eyebrow">SØNDERVIG ADVENTURE 2026 <span>PHASE 01 · v0.14 · TESTVERSION</span></div>
+    <h1>Ein Sommer an der Küste.</h1>
+    <p id="status" role="status">Die Nachbarschaft wird geladen …</p>
+    <div id="journey"><span class="dot"></span> Harbo Stages Vej <span id="shells">🐚 0 / 6</span></div>
+  </header>
+  <nav id="tools" aria-label="Ansicht">
+    <button id="reset" title="Kamera zur Spielfigur">Zur Figur</button>
+    <button id="survey" title="Umgebung von oben ansehen">Überblick</button>
+    <button id="quality" title="Grafikqualität wechseln">Grafik: Automatisch</button>
+    <button id="help" aria-controls="guide" aria-expanded="false" title="Steuerung und Kartengrundlage">?</button>
+  </nav>
+  <div id="message" role="status">Erkunde die Nachbarschaft. Am Ferienhaus erfährst du mehr.</div>
+  <div id="joystick" role="group" aria-label="Virtueller Joystick: ziehen zum Gehen"><span id="stick"></span><span class="stick-label">GEHEN</span></div>
+  <button id="action" aria-label="Interagieren"><span>E</span><small>AKTION</small></button>
+  <div id="zoom" aria-label="Zoom"><button id="plus" aria-label="Heranzoomen">+</button><button id="minus" aria-label="Herauszoomen">−</button></div>
+  <footer><span>Ein Finger: drehen · Zwei Finger: Zoom &amp; Verschieben</span><a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap-Mitwirkende · ODbL</a></footer>
+  <dialog id="guide">
+    <h2>Willkommen in Søndervig</h2>
+    <p><b>Zu Fuß:</b> WASD / Pfeiltasten oder den Joystick ziehen. Die Bewegung folgt der Kamerarichtung. E / Aktion zum Interagieren und Sammeln.</p>
+    <p><b>Kamera:</b> Mit Maus oder einem Finger ziehen. Mausrad / zwei Finger zum Zoomen. Zwei Finger verschieben die Ansicht. Bewegung und Kameradrehung funktionieren gleichzeitig. „Zur Figur“ setzt die Ansicht zurück.</p>
+    <p><b>Dieser erste Abschnitt:</b> ein Spaziergang um das Ferienhaus, Gespräche und sechs Muscheln als kleine Suchaufgabe. Das Auto ist hier ein geparktes Hindernis. Ausflugsmissionen sind in diesem Testabschnitt noch nicht enthalten.</p>
+    <p class="note">OSM liefert Straßenverläufe und Gebäudegrundrisse. Der bestehende Startmarker liegt bei diesem Gebäude; die Zuordnung zu Harbo Stages Vej 3 / Esmark i6582 ist noch nicht bestätigt. Fassaden, Dachrichtung, Höhen, Gelände, Vegetation und platzierte Spielobjekte sind Näherungen. Muscheln in diesem Abschnitt sind Spielobjekte, kein kartierter Strand. Keine vermessenen Höhen, keine Originalmodelle der Familie.</p>
+    <button id="closeGuide">Los geht’s</button>
+  </dialog>
+  <script type="module" src="./src/game.js"></script>
+</body>
+</html>

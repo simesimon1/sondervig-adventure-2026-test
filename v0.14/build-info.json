@@ -1,0 +1,24 @@
+{
+  "version": "0.14",
+  "source_repository": "simesimon1/sondervig-adventure-2026",
+  "source_pull_request": 1,
+  "source_commit": "ddf3ba22cccd905c847348aaa3989e3247436449",
+  "published_path": "/v0.14/",
+  "packaging_changes": [
+    "Separate test label in HTML",
+    "Legacy-game help link replaced by standalone test description",
+    "HTML also provided as index.html",
+    "Root entry redirects to v0.14/"
+  ],
+  "files": {
+    "src/game.css": "a514e80850042e3f09259bca7600250e293dc68ad07e529fa2a1ab0f8683a9e3",
+    "src/game.js": "1a273e6788fcafd84a4bd2b8ad05a199ceba4226a30b40c54146a2b40356b5ac",
+    "src/scenery.js": "82f23f700bcd6c6e0d4693e1608bc75929601b5a604c02bc166999371fdf5413",
+    "src/world.js": "909926d7877da30d23caeccf45f58880f4f6ad56ae61c2ab3c1141653b99577d",
+    "vendor/three.module.js": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495",
+    "vendor/THREE-LICENSE.txt": "852e0e8699169bf9f6fdc6bda3e682d078dcbc738b5d33e74df594721bff271d",
+    "data/sondervig-osm.json": "80ae42d5ef38b6a99705e95a2e42e0401c5017117e593a4e0373f0e7aee7101c",
+    "index.html": "01931377cbc4074a0f31bc207473b259e6897e521b33accbb562a7d416fd7667",
+    "osm-3d-preview.html": "01931377cbc4074a0f31bc207473b259e6897e521b33accbb562a7d416fd7667"
+  }
+}
