@@ -1,0 +1,34 @@
+{
+  "version": "0.15",
+  "source_repository": "simesimon1/sondervig-adventure-2026",
+  "source_pull_request": null,
+  "source_commit": "ada91a032971256c273bad86e068b4e34efa6ea6",
+  "published_path": "/v0.15/",
+  "packaging_changes": [
+    "HTML index alias and test label",
+    "Standalone help text"
+  ],
+  "files": {
+    "assets/characters/README.md": "8ff124e91ce4a7ef3647ba4377856ea75b71d05e5a045158d19f2a2b2dabeb51",
+    "assets/characters/ida.glb": "59aa666c896efd7e5e5be858f7a8f676d80705318a6afaa65edb77e94fd2c486",
+    "assets/characters/manifest.json": "0dd019a0b4d3860af1c887eb7ce6e30cdf6204ba0aa75dd4af70c901718ee491",
+    "assets/characters/simon.glb": "cdb2d66d255d07233e7c1222dba553cb793ade21e0254df0000c04744552eb7a",
+    "assets/characters/swantje.glb": "43a1e63e9905fa670353581644b7a603b014a151cad27425924f0a534597942c",
+    "character-studio.html": "635ea02cd23446d8956af74ca533172614628cf51dbd8965719cc71ffbbb9120",
+    "data/sondervig-osm.json": "80ae42d5ef38b6a99705e95a2e42e0401c5017117e593a4e0373f0e7aee7101c",
+    "index.html": "1a41682dc2c30e70bb0efdf44d09385215789067d3382de1d4ce5f291ab06d85",
+    "osm-3d-preview.html": "1a41682dc2c30e70bb0efdf44d09385215789067d3382de1d4ce5f291ab06d85",
+    "src/characters.js": "3dab20f14eb67f5f327468b004cb965cf23c9ce4d3d3323c2a702505b91bb0df",
+    "src/game.css": "a514e80850042e3f09259bca7600250e293dc68ad07e529fa2a1ab0f8683a9e3",
+    "src/game.js": "583bee21a26b2d48b74aa6176c88f3e05a6ad8d32427f0eb0ef5547f857cf79f",
+    "src/lighting.js": "a85605715db70360948f6a44be63cb2c78e1fb245762c9dbccd4c2dc23e25d1e",
+    "src/scenery.js": "e48fb48eb3f9207b3459b38e2adf3fc72fb736765a348d6752907813ac99bb44",
+    "src/studio.css": "234c5690d60def5f77c9092821fa2adead059ebd34d149287fb57159191a5ffa",
+    "src/studio.js": "6c50021cbf99d04e1d40642fdfeca83ebc7122caa3a67e8c46bd689586b16f8e",
+    "src/world.js": "909926d7877da30d23caeccf45f58880f4f6ad56ae61c2ab3c1141653b99577d",
+    "vendor/THREE-LICENSE.txt": "852e0e8699169bf9f6fdc6bda3e682d078dcbc738b5d33e74df594721bff271d",
+    "vendor/loaders/GLTFLoader.js": "0fec32c41d0cd912f38ccfcd87b003f83e984c22ed3ac54aaa73d91cc1a418a5",
+    "vendor/three.module.js": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495",
+    "vendor/utils/BufferGeometryUtils.js": "6f7a59439dd3f4399b25e9214aef65e5969422ed467083f406272b9b1fcef48c"
+  }
+}
