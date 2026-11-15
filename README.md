@@ -24,3 +24,5 @@ Figurenatelier: https://simesimon1.github.io/sondervig-adventure-2026-test/v0.15
 Drei eigene GLB-Modelle nach den Charakterkarten mit Skelettanimationen, einer separaten Nahansicht und einer ersten Material-/Lichtüberarbeitung. Stilisierter erster Durchgang; insbesondere Gesichter und Haare erreichen noch nicht den Detailgrad der Referenzkarten. Die Originalkarten und private Fotos sind nicht veröffentlicht. Tilda wird in diesem Durchgang noch nicht als 3D-Modell umgesetzt.
 
 v0.14 und die Root-Weiterleitung bleiben unverändert. Quellstand und Datei-Prüfsummen der zusätzlichen Version: `v0.15/build-info.json`.
+
+Quelländerungen zur Prüfung: https://github.com/simesimon1/sondervig-adventure-2026/pull/2 (auf PR #1 aufgebaut, ohne Merge in main).
