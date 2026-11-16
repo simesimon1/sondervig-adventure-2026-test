@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#24483f">
+  <link rel="icon" href="data:,">
+  <title>Søndervig Adventure · Küstenpfade v0.17</title>
+  <link rel="stylesheet" href="./src/game.css">
+</head>
+<body>
+  <main id="game" aria-label="Dreidimensionale Spielwelt"></main>
+  <header id="hud">
+    <div class="eyebrow">SØNDERVIG ADVENTURE 2026 <span>STRANDSPAZIERGANG · v0.17 · TESTVERSION</span></div>
+    <h1>Ein Sommer an der Küste.</h1>
+    <p id="status" role="status">Die Nachbarschaft wird geladen …</p>
+    <div id="journey"><span class="dot"></span> Harbo Stages Vej <span id="shells">🐚 0 / 3</span></div>
+  </header>
+<aside id="quest"><strong id="objective">Sprich mit Swantje</strong><span id="direction"></span><button id="seaView" hidden>Meerblick</button><small id="saveState">Fortschritt wird automatisch gespeichert</small></aside>
+  <nav id="tools" aria-label="Ansicht">
+    <button id="reset" title="Kamera zur Spielfigur">Zur Figur</button>
+    <button id="survey" title="Umgebung von oben ansehen">Überblick</button>
+    <button id="quality" title="Grafikqualität wechseln">Grafik: Automatisch</button>
+    <button id="help" aria-controls="guide" aria-expanded="false" title="Steuerung und Kartengrundlage">?</button>
+  </nav>
+  <div id="message" role="status">Erkunde die Nachbarschaft. Am Ferienhaus erfährst du mehr.</div>
+  <div id="joystick" role="group" aria-label="Virtueller Joystick: ziehen zum Gehen"><span id="stick"></span><span class="stick-label">GEHEN</span></div>
+  <div id="pace" role="group" aria-label="Laufgeschwindigkeit"><span>LAUFTEMPO</span><button data-speed="normal" aria-pressed="true">Normal</button><button data-speed="medium" aria-pressed="false">Mittel</button><button data-speed="fast" aria-pressed="false">Schnell</button></div>
+  <button id="action" aria-label="Interagieren"><span>E</span><small>AKTION</small></button>
+  <div id="zoom" aria-label="Zoom"><button id="plus" aria-label="Heranzoomen">+</button><button id="minus" aria-label="Herauszoomen">−</button></div>
+  <footer><span>Ein Finger: drehen · Zwei Finger: Zoom &amp; Verschieben</span><a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap-Mitwirkende · ODbL</a></footer>
+  <dialog id="guide">
+    <h2>Willkommen in Søndervig</h2>
+    <p><b>Zu Fuß:</b> WASD / Pfeiltasten oder den Joystick ziehen. Die Bewegung folgt der Kamerarichtung. E / Aktion zum Interagieren und Sammeln. Lauftempo über Normal/Mittel/Schnell auswählen; am PC auch mit 1/2/3.</p>
+    <p><b>Kamera:</b> Mit Maus oder einem Finger ziehen. Mausrad / zwei Finger zum Zoomen. Zwei Finger verschieben die Ansicht. Bewegung und Kameradrehung funktionieren gleichzeitig. „Zur Figur“ setzt die Ansicht zurück.</p>
+    <p><b>Dieser erste Abschnitt:</b> ein Spaziergang um das Ferienhaus, Gespräche und drei Muscheln am Strand und Rückkehr zum Ferienhaus. Das Auto ist hier ein geparktes Hindernis. Ausflugsmissionen sind in diesem Testabschnitt noch nicht enthalten.</p>
+    <p class="note">OSM liefert Straßenverläufe, Gebäudegrundrisse und die vereinfachte Küstenlinie (Way 4125293). Wasserstand und Dünenhöhen sind nicht vermessen. Der bestehende Startmarker liegt bei diesem Gebäude; Esmark bestätigt i6582 als Harbo Stages Vej 3. Der Abgleich mit diesem OSM-Grundriss sowie die genaue Anordnung der Ausstattung sind noch nicht verifiziert. Fassaden, Dachrichtung, Höhen, Gelände, Vegetation und platzierte Spielobjekte sind Näherungen. Muscheln in diesem Abschnitt sind Spielobjekte, kein kartierter Strand. Keine vermessenen Höhen. Die Figuren sind eigene 3D-Entwürfe nach den Charakterkarten, keine Scans oder fotografisch exakten Abbilder.</p>
+    <p><a href="./character-studio.html">Figurenatelier öffnen ↗</a> · Modelle drehen, Gesicht ansehen und Animationen prüfen.</p>
+    <button id="restartQuest">Spaziergang neu beginnen</button>
+    <button id="closeGuide">Los geht’s</button>
+  </dialog>
+  <script type="module" src="./src/game.js"></script>
+</body>
+</html>
