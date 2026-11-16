@@ -2,7 +2,7 @@
   "version": "0.16",
   "source_repository": "simesimon1/sondervig-adventure-2026",
   "source_pull_request": 3,
-  "source_commit": "9363626d0bc49e6e08ec8f343bd0f0b16602582b",
+  "source_commit": "55f830774109a6e39f2705290a41a805937fe901",
   "published_path": "/v0.16/",
   "packaging_changes": [
     "HTML index alias and test label",
@@ -14,7 +14,7 @@
     "assets/characters/manifest.json": "66db0c7384a5fbc40515ed54daa9ecd89891ff2b095dfd7a7423b00bbfa17099",
     "assets/characters/simon.glb": "0acab3d06b9d89644ff23c4bb15b4dc564e2a4e6023f14227970039f05d552ac",
     "assets/characters/swantje.glb": "43a1e63e9905fa670353581644b7a603b014a151cad27425924f0a534597942c",
-    "character-studio.html": "635ea02cd23446d8956af74ca533172614628cf51dbd8965719cc71ffbbb9120",
+    "character-studio.html": "85c73cb3c4a767c61d3377add3c1074e8a3393a9709e6ecc496be3fb69d16df8",
     "data/coast-osm.json": "b015b3f5ba37b8972e928580d287e47ad7b53c9422c22cf8dd23e1644265a251",
     "data/coast-paths.json": "beb18e92f333fbc5eafa8fa8181b2e3e87482a076848d22f7fabd7d0e2060008",
     "data/sondervig-osm.json": "80ae42d5ef38b6a99705e95a2e42e0401c5017117e593a4e0373f0e7aee7101c",
