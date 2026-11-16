@@ -1,0 +1,39 @@
+{
+  "version": "0.16",
+  "source_repository": "simesimon1/sondervig-adventure-2026",
+  "source_pull_request": 3,
+  "source_commit": "9363626d0bc49e6e08ec8f343bd0f0b16602582b",
+  "published_path": "/v0.16/",
+  "packaging_changes": [
+    "HTML index alias and test label",
+    "Standalone help text"
+  ],
+  "files": {
+    "assets/characters/README.md": "8ff124e91ce4a7ef3647ba4377856ea75b71d05e5a045158d19f2a2b2dabeb51",
+    "assets/characters/ida.glb": "59aa666c896efd7e5e5be858f7a8f676d80705318a6afaa65edb77e94fd2c486",
+    "assets/characters/manifest.json": "66db0c7384a5fbc40515ed54daa9ecd89891ff2b095dfd7a7423b00bbfa17099",
+    "assets/characters/simon.glb": "0acab3d06b9d89644ff23c4bb15b4dc564e2a4e6023f14227970039f05d552ac",
+    "assets/characters/swantje.glb": "43a1e63e9905fa670353581644b7a603b014a151cad27425924f0a534597942c",
+    "character-studio.html": "635ea02cd23446d8956af74ca533172614628cf51dbd8965719cc71ffbbb9120",
+    "data/coast-osm.json": "b015b3f5ba37b8972e928580d287e47ad7b53c9422c22cf8dd23e1644265a251",
+    "data/coast-paths.json": "beb18e92f333fbc5eafa8fa8181b2e3e87482a076848d22f7fabd7d0e2060008",
+    "data/sondervig-osm.json": "80ae42d5ef38b6a99705e95a2e42e0401c5017117e593a4e0373f0e7aee7101c",
+    "index.html": "2a3e16bb3d3ce251a6c88939dea3c6e5370b36bf697317da189220e2bb21eb56",
+    "osm-3d-preview.html": "2a3e16bb3d3ce251a6c88939dea3c6e5370b36bf697317da189220e2bb21eb56",
+    "src/beach.js": "7323974cc964413667a7465d6703e99d88805dbae1ce99cb2ec4c672b44486bd",
+    "src/characters.js": "3dab20f14eb67f5f327468b004cb965cf23c9ce4d3d3323c2a702505b91bb0df",
+    "src/coast.js": "546bbd0d016f016845a4f1c3828e9ef1edc401b5435d0303f5732eaff96af866",
+    "src/game.css": "5d9289cfb6deacfd2627574236876f65aae148c200a2aa3142313275627d6996",
+    "src/game.js": "0c29fb84a819441542acc407e705d00c10157e312cef1971ddc3d13272eb9e79",
+    "src/lighting.js": "a85605715db70360948f6a44be63cb2c78e1fb245762c9dbccd4c2dc23e25d1e",
+    "src/mission.js": "b56634818b08617694f9fa2dc9b334fed2fd5d9d9343a201e4bdefbfbbb48f3c",
+    "src/scenery.js": "b5969063a0190368db53d5bd15d2bb2c780b3885671436763d216826819506d0",
+    "src/studio.css": "234c5690d60def5f77c9092821fa2adead059ebd34d149287fb57159191a5ffa",
+    "src/studio.js": "6c50021cbf99d04e1d40642fdfeca83ebc7122caa3a67e8c46bd689586b16f8e",
+    "src/world.js": "df6bb1081a22b0785114c9205b10d0e709fbcb1365782cac00e0d2dafb8adfd9",
+    "vendor/THREE-LICENSE.txt": "852e0e8699169bf9f6fdc6bda3e682d078dcbc738b5d33e74df594721bff271d",
+    "vendor/loaders/GLTFLoader.js": "0fec32c41d0cd912f38ccfcd87b003f83e984c22ed3ac54aaa73d91cc1a418a5",
+    "vendor/three.module.js": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495",
+    "vendor/utils/BufferGeometryUtils.js": "6f7a59439dd3f4399b25e9214aef65e5969422ed467083f406272b9b1fcef48c"
+  }
+}
